@@ -1,0 +1,4 @@
+arr = [1, 2, 3]  # Example array
+n = len(arr)  # Get the length of the array
+total_subsets = 2 ** n
+print("Total number of subsets:", total_subsets)
