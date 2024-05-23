@@ -1,0 +1,7 @@
+import math
+numbers = [10, 16, 20, 25, 30, 35]
+largest_not_perfect_square = -1
+for number in numbers:
+    if math.isqrt(number) ** 2 != number:
+        if number > largest_not_perfect_square:
+            largest_not_perfect_squa
