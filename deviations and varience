@@ -1,0 +1,15 @@
+import math
+n = int(input("Enter the number of elements: "))
+arr = []
+print("Enter", n, "numbers:")
+for i in range(n):
+    element = float(input())
+    arr.append(element)
+total_sum = sum(arr)
+mean = total_sum / n
+deviation_sum = sum((x - mean) ** 2 for x in arr)
+variance = deviation_sum / n
+deviation = math.sqrt(variance)
+print("Mean:", mean)
+print("Deviation:", deviation)
+print("Variance:", variance)
