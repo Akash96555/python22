@@ -1,0 +1,11 @@
+arr1 = [1, 2, 3, 4, 5]
+arr2 = [1, 2, 3, 4, 5]
+if len(arr1) != len(arr2):
+    print("Arrays are not the same.")
+else:
+    for i in range(len(arr1)):
+        if arr1[i] != arr2[i]:
+            print("Arrays are not the same.")
+            break
+  else:
+        print("Arrays are the same.")
