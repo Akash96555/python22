@@ -1,0 +1,14 @@
+n = int(input("Enter the number of elements: "))
+arr = []
+print("Enter", n, "numbers:")
+for i in range(n):
+    element = int(input())
+    arr.append(element)
+largest = smallest = arr[0]
+for num in arr:
+    if num > largest:
+        largest = num
+    if num < smallest:
+        smallest = num
+print("Largest number:", largest)
+print("Smallest number:", smallest)
