@@ -1,0 +1,6 @@
+arr1 = [4, 5, 2, 8]  # First array
+arr2 = [3, 7, 1, 6]  # Second array
+max_first_array = max(arr1)
+min_second_array = min(arr2)
+product = max_first_array * min_second_array
+print("Product of max element of first array and min element of second array:", product)
